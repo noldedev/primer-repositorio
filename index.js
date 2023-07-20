@@ -1,1 +1,5 @@
-console.log("Estoy aprendiendo Git y GitHub :3");
+const boton = document.getElementById("btn");
+
+boton.addEventListener("click", function () {
+  alert("Genial me distes click");
+});
